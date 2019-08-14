@@ -305,13 +305,13 @@ body {
   line-height: 1.5; }
 
 a {
-  color: #6290C3;
+  color: white;
   cursor: pointer;
   text-decoration: none; }
   a strong {
     color: currentColor; }
   a:hover {
-    color: #363636; }
+    color: #6290C3; }
 
 code {
   background-color: whitesmoke;
@@ -1984,6 +1984,11 @@ a.box:active {
   margin: 0 auto;
   position: relative;
   width: auto; }
+  .container1 {
+    flex-grow: 1;
+    margin: 0 0 0 auto;
+    position: relative;
+    width: auto; }
   @media screen and (min-width: 1024px) {
     .container {
       max-width: 960px; }
