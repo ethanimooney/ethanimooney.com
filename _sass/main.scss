@@ -34,14 +34,17 @@ $sandy-brown-invert: $honeydew;
 $bone: #67597A;
 $bone-invert: $honeydew;
 // Update the sans-serif font family
-$family-sans-serif: "Helvetica", "Arial", sans-serif;
+@import 'https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700';
+$quicksand: "Quicksand", sans-serif;
+$family-sans-serif: $quicksand;
+
 
 // 3. Set the derived variables
 // Use the new pink as the primary color
 $primary: $sandy-brown;
 $primary-invert: $sandy-brown-invert;
 
-$link: $indigo;
+$link: $silver-lake;
 $link-invert: $silver-lake-invert;
 
 $info: $indigo;
