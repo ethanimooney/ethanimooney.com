@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+// Import a Google Font
+
+// Set your brand colors
+$orange: #F0A868;
+$orange-invert: white;
+$blue: #6290C3;
+$blue-invert: white;
+$teal: #264653;
+$teal-invert: white;
+$purple: #67597A;
+$purple-invert: white;
+$light-lime: #DDFFD9;
+$light-grey: #f5f5f5;
+$dark-grey: #353535;
+
+// Update Bulma's global variables
+$family-sans-serif: "Helvetica Neue", sans-serif;
+$grey-dark: $dark-grey;
+$grey-light: $light-grey;
+$primary: $orange;
+$primary-invert: $orange-invert;
+$link: $blue;
+$link-invert: $blue-invert;
+$warning: $purple;
+$warning-invert: $purple-invert;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/elements/icon.sass";
+@import "../node_modules/bulma/sass/elements/tag.sass";
+
+@import "../node_modules/bulma/sass/form/_all.sass";
+
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/menu.sass";
+
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+
+@import "../node_modules/bulma/sass/grid/_all.sass";
+// @import "../node_modules/bulma/bulma";
