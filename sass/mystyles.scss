@@ -7,7 +7,7 @@ $orange: #F0A868;
 $orange-invert: white;
 $blue: #6290C3;
 $blue-invert: white;
-$teal: #264653;
+$teal: #4C6D76;
 $teal-invert: white;
 $purple: #67597A;
 $purple-invert: white;
@@ -19,6 +19,8 @@ $dark-grey: #353535;
 $family-sans-serif: "Helvetica Neue", sans-serif;
 $grey-dark: $dark-grey;
 $grey-light: $light-grey;
+$success: $teal;
+$success-invert: $teal-invert;
 $primary: $orange;
 $primary-invert: $orange-invert;
 $link: $blue;
@@ -53,6 +55,8 @@ $input-shadow: none;
 
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
+
 
 @import "../node_modules/bulma/sass/grid/_all.sass";
 // @import "../node_modules/bulma/bulma";
