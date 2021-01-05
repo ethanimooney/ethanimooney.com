@@ -38,8 +38,10 @@ body {
 .logo {
   color: var(--gold);
   display: inline-block;
-  font-size: 20pt;
+  font-family: 'bely-display', serif;
+  font-size: 25pt;
   font-weight: bold;
+  letter-spacing: 1.5px;
   padding: 0 0 0 50px;
   text-decoration: none;
 }
