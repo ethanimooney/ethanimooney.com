@@ -1,0 +1,28 @@
+{
+  "name": "ethanimooney.com",
+  "version": "1.0.0",
+  "description": "ethanimooney.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanimooney/ethanimooney.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanimooney/ethanimooney.com/issues"
+  },
+  "homepage": "https://github.com/ethanimooney/ethanimooney.com#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "node": "^17.2.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1",
+    "vite": "^2.7.1"
+  }
+}
