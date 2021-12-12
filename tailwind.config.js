@@ -24,6 +24,13 @@ module.exports = {
           DEFAULT: "#333333",
           dark: "#212121",
         },
+        brand: {
+           green: "#7C9D88",
+           orange: "#F78166",
+           gray: "#C2C2C2",
+           darkBlue: "#14262F",
+           lightBlue: "#73869F",
+        }
       },
       fontFamily: {
         headline: "Poppins, sans-serif"
