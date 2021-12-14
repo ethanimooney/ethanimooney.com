@@ -1,0 +1,35 @@
+export default [
+  {
+    title: "ethanimooney.com",
+    tags: ["html/css", "tailwindcss", "vite", "postcss", "netlify", "figma"],
+    git: "https://www.github.com/...",
+    link: "https://www.ethanimooney.com",
+    description: "The second iteration of my personal website, built using html/css, tailwindcss, postcss, and vite. Hosted with Netlify through GitHub.",
+    img: "",
+    isFeatured: true,
+  },
+  {
+    title: "wheell",
+    tags: ["html/css", "javascript", "python", "AppEngine"],
+    git: "https://www.github.com/...",
+    description: "Programmed both front-end and back-end of the registration system using JavaScript, HTML,and CSS for Google CSSI final project, a web- based service that utilizes Google Maps API to give wheelchair users more information about the accessibility level of the location they search. Presented project to a group of Google engineers. Currently in re-development.",
+    img: "",
+    isFeatured: false,
+  },
+  {
+    title: "swablu",
+    tags: ["javascript", "Node.js", "Discord.js"],
+    git: "https://www.github.com/...",
+    description: "Discord server management bot created to help Pokémon Trading Card Game servers manage their user base.",
+    img: "",
+    isFeatured: false,
+  },
+  {
+    title: "ai connect 4",
+    tags: ["java", "eclipse", "ai fundamentals"],
+    git: "https://www.github.com/...",
+    description: "Connect4 program created for an AI course. Utilizes a minimax algorithm along with a heuristic to determine the best next move, looking 3 moves ahead.",
+    img: "",
+    isFeatured: false,
+  },
+];
