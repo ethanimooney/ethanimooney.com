@@ -20,7 +20,7 @@ export default function App() {
             {/* <!-- header --> */}
             <div className="pb-16 flex flex-col items-center ">
                <div className="flex flex-col items-center md:grid md:grid-cols-2 md:content-center md:bg-red-50 container mb-16 mt-16 sm:bg-blue-50 lg:bg-green-50 xl:bg-purple-50 2xl:bg-yellow-50">
-                  <img src="/img/face-blue-bg.svg" alt="" className="pb-10 sm:pb-0 scale-100"/>
+                  <img src="./src/img/face-blue-bg.svg" alt="" className="pb-10 sm:pb-0 scale-100"/>
                   <div className="">
                      <h1 className="pl-0 md:pl-4 font-bold text-darkBlue text-4xl pb-4 lg:text-5xl text-center md:text-left">ethan mooney</h1>
                      <h2 className="pl-0 md:pl-4 font-semibold text-2xl lg:text-3xl leading-relaxed text-center md:text-left sm:block flex flex-col items-center">
@@ -88,7 +88,7 @@ export default function App() {
                   </h2>
                </div>
                <div className="flex flex-col items-center md:grid md:grid-cols-2 md:content-center">
-                  <img src="/img/face-green-bg.svg" alt="Animated Ethan's face looking up at the contact information." className="scale-100 pb-8 md:pb-0"/>
+                  <img src="./src/img/face-green-bg.svg" alt="Animated Ethan's face looking up at the contact information." className="scale-100 pb-8 md:pb-0"/>
                   <div className="pl-0 md:pl-4 flex flex-col items-center">
                      <h3 className="font-bold text-green-600 text-2xl lg:text-3xl  mb-4 text-center md:text-left">need some design or development help?</h3>
                      <p className="font-medium text-darkBlue text-lg  lg:text-xl text-center md:text-left">
@@ -112,7 +112,7 @@ export default function App() {
          </h4>
          <div className="flex">
             <h4 className="font-bold text-darkBlue pr-1">© ethanimooney 2022</h4>
-            <img src="/img/face-gray-bg.svg" alt="A tiny version of animated ethan's face looking at the copyright text"/>
+            <img src="./src/img/face-gray-bg.svg" alt="A tiny version of animated ethan's face looking at the copyright text"/>
          </div>
       </div>
     </div>
