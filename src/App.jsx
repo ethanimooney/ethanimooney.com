@@ -1,5 +1,11 @@
 import React from "react";
 
+// import freelance from "./data/freelance";
+// import internships from "./data/internships";
+// import work from "./data/work";
+
+import ExperienceCard from "./components/ExperienceCard";
+
 export default function App() {
   return (
     <div>
@@ -56,7 +62,7 @@ export default function App() {
                <p className="font-semibold text-base lg:text-xl text-blueGray-700">
                   Beyond the tech world I spend my time on my other hobbies. I love fast cars, so most weekends you'll find me watching
                   F1. I am a film photographer at heart, make sure to check my Instagram to see! And many days of the week you might find
-                  me at my local boundering gym doing my best to make it to the top.
+                  me at my local bouldering gym doing my best to make it to the top.
                </p>
             </div>
 
@@ -64,7 +70,7 @@ export default function App() {
             <div>
                <h1 className="font-bold text-blueGray text-4xl mb-4 lg:text-5xl text-center sm:text-left">experience</h1>
                <div>
-
+                  <ExperienceCard />
                </div>
             </div>
 
