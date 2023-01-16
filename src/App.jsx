@@ -48,7 +48,7 @@ export default function App() {
             {/* <!-- about --> */}
             <h1 className="font-bold text-orange text-4xl mb-4 lg:text-5xl text-center sm:text-left">about</h1>
             <p className="font-semibold text-base lg:text-xl text-blueGray-700 mb-8">
-               Hello! I'm Ethan - a junior computer science student at Oklahoma Christian University. Ever since getting my first
+               Hello! I'm Ethan - a senior computer science student at Oklahoma Christian University. Ever since getting my first
                computer in middle school and learning 
                <span className="text-orange"><a href="https://www.scratch.mit.edu/warrior3" className="hover:text-orange-700"> Scratch</a></span>,
                 I've been fascinated by the inner workings and design of technology.
