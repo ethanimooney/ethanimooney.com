@@ -9,9 +9,9 @@ export default function ExperienceEntryCard({entry}) {
     buttons = 
     <div className="flex flex-row space-x-4"> 
       {entry.links.map((link) => 
-        <button src={link.link} className="bg-blueGray-600 text-gray-100 font-bold text-sm px-2 py-1 rounded-lg hover:bg-blueGray-700">
+        <a href={link.link} target="_blank" className="bg-blueGray-600 text-gray-100 font-bold text-sm px-2 py-1 rounded-lg hover:bg-blueGray-700">
           {link.title}
-        </button>)}
+        </a>)}
     </div>;
   }
 

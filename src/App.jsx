@@ -20,7 +20,7 @@ export default function App() {
          </a>
       </div>
 
-      <div className="mx-16 md:mx-36 lg:mx-48 xl:mx-80 2xl:mx-112">
+      <div className="mx-10 md:mx-36 lg:mx-48 xl:mx-80 2xl:mx-112">
       {/* <div className="mx-[15%]"> */}
          <div className="">
             {/* <!-- header --> */}
