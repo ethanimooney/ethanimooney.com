@@ -1,20 +1,51 @@
 {
-  "name": "ethanmooney.me",
-  "version": "1.0.0",
-  "description": "Ethan Mooney personal website",
-  "main": "sass/mystyles.scss",
+  "name": "ethanimooney.com",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
+  },
   "dependencies": {
-    "gcc": "^1.0.2"
+    "pinia": "^2.0.28",
+    "sass-loader": "^13.2.0",
+    "volar": "^0.0.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.1.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "bulma": "^0.7.5",
-    "node-sass": "^4.13.1"
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.57.1",
+    "vite": "^4.0.0"
   },
-  "scripts": {
-  "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-  "css-watch": "npm run css-build -- --watch",
-  "start": "npm run css-watch"
-},
-  "author": "",
-  "license": "ISC"
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-recommended",
+      "eslint:recommended",
+      "prettier",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off",
+      "vue/no-v-text-v-html-on-component": "off"
+    }
+  }
 }

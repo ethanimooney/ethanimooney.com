@@ -1,0 +1,18 @@
+@use "vuetify";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$font-family: "Poppins", sans-serif;
+
+.v-application {
+  [class*="text-"] {
+    color: #36405a;
+    font-family: $font-family, sans-serif !important;
+  }
+  font-family: $font-family, sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
