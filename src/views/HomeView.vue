@@ -1,28 +1,48 @@
+<script setup>
+import faceBlueBg from "../assets/face-blue-bg.svg";
+</script>
+
 <script>
 export default {
-  data: function () {
-    return {
-      headerFace: "/../assets/face-blue-bg-2.png",
-    };
+  data: () => ({
+    faceBlueBgUrl: "",
+  }),
+  created() {
+    this.faceBlueBgUrl = faceBlueBg;
   },
 };
 </script>
 
-<script setup></script>
-
 <template>
   <v-container fluid>
-    <v-spacer></v-spacer>
-    <v-col cols="4">
-      <v-row>
+    <v-row>
+      <v-spacer></v-spacer>
+      <v-col :md="8" :xs="12">
         <v-container>
-          <v-col>
-            <v-img :src="headerFace" />
-          </v-col>
-          <v-col> </v-col>
+          <v-row align="center" justify="center">
+            <v-col cols="5">
+              <v-img :src="faceBlueBgUrl" cover />
+            </v-col>
+            <v-spacer class="hidden-sm-and-down"></v-spacer>
+            <v-col :lg="6" :md="6" :sm="12" :xs="12" fluid align-self="center">
+              <span class="text-h2 text-lg-h3 font-weight-bold text-darkBlue">
+                ethan mooney <br />
+              </span>
+              <span class="text-h4 text-lg-h4 font-weight-medium text-orange">
+                web developer,
+              </span>
+              <span class="text-h4 text-lg-h4 font-weight-medium text-blueGray">
+                designer,
+              </span>
+              <span class="text-h4 text-lg-h4 font-weight-medium text-green">
+                photographer
+              </span>
+            </v-col>
+          </v-row>
         </v-container>
-      </v-row>
-    </v-col>
+      </v-col>
+      <v-spacer></v-spacer>
+    </v-row>
     <v-spacer></v-spacer>
   </v-container>
 </template>

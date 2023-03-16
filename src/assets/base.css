@@ -1,11 +1,12 @@
-:root {
-  --blue-gray: #73869f;
-  --dark-blue: #14262f;
-  --gray: #c2c2c2;
-  --orange: #f78166;
-  --green: #7c9d88;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins0&display=swap");
 }
 
 * {
+  margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
