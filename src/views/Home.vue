@@ -22,7 +22,7 @@
 
   <!-- Image -->
   <div class="shrink grow-0 overflow-clip rounded-3xl rounded-ss">
-    <img class="object-cover object-center" src="../assets/1.JPG" />
+    <img class="object-cover object-center" src="../assets/images/1.JPG" />
   </div>
 
   <div class="text-md shrink grow-0 font-extrabold text-slate">
