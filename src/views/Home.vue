@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+  import Img1 from "../assets/images/1.JPG";
+</script>
 <template>
   <!-- Main Content -->
   <div
@@ -22,7 +24,7 @@
 
   <!-- Image -->
   <div class="shrink grow-0 overflow-clip rounded-3xl rounded-ss">
-    <img class="object-cover object-center" src="../assets/images/1.JPG" />
+    <img class="object-cover object-center" :src="Img1" />
   </div>
 
   <div class="text-md shrink grow-0 font-extrabold text-slate">
