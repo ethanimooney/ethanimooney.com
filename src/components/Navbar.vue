@@ -41,11 +41,11 @@
           v-for="navOption in navOptions"
           :key="navOption.title"
           @click="navigate(navOption)"
-          class="p-2 px-3"
+          class="ml-1 rounded-full p-2 px-3 hover:cursor-pointer"
           :class="
             router.currentRoute.value.fullPath === navOption.link
-              ? 'rounded-full bg-itemBackground'
-              : ''
+              ? 'bg-itemBackground'
+              : 'hover:bg-itemBackground'
           ">
           {{ navOption.title }}
         </div>

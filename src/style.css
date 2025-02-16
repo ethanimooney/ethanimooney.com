@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+  --text-regular-mine: 180pt;
+  --text-regular-mine--font-weight: 400;
+}

@@ -1,47 +1,91 @@
-<script setup>
-  import Img1 from "../assets/images/1.JPG";
-</script>
+<script setup></script>
 <template>
   <!-- Main Content -->
-  <div
-    class="grow rounded-3xl rounded-ss bg-whiteBorder p-[1px] backdrop-blur-2xl">
-    <div
-      class="flex grow flex-col gap-5 rounded-[23px] rounded-ss-[3px] bg-slate/[.30] p-5 backdrop-blur-xl">
-      <p class="font-bold text-white">
-        hello! my name is
-        <span class="font-extrabold text-slate">ethan mooney</span> , a
-        <span class="font-extrabold text-slate">software engineer</span>
-        specializing in user experiences.
-      </p>
-      <p class="font-bold text-white">
-        I currently live in
-        <span class="font-extrabold text-slate">Seattle</span>, where you can
-        find me shooting film on my camera, hiking, bouldering at my local gym,
-        or watching Formula 1.
-      </p>
-    </div>
-  </div>
+  <div class="mx-auto my-6 max-w-sm md:my-auto md:max-w-lg">
+    <div class="flex flex-col">
+      <div class="p-15">
+        <div class="basis-full text-right text-[30pt] font-bold tracking-wide">
+          eim<span class="text-orange">*</span>
+        </div>
+      </div>
 
-  <!-- Image -->
-  <div class="shrink grow-0 overflow-clip rounded-3xl rounded-ss">
-    <img class="object-cover object-center" :src="Img1" />
-  </div>
+      <div class="h-[7rem]"></div>
 
-  <div class="text-md shrink grow-0 font-extrabold text-slate">
-    I also write
-  </div>
-
-  <!-- Post -->
-  <div
-    class="grow rounded-3xl rounded-ss bg-whiteBorder p-[1px] backdrop-blur-2xl">
-    <div
-      class="flex flex-col gap-2.5 rounded-[23px] rounded-ss-[3px] bg-slate/[.30] p-5 backdrop-blur-xl">
-      <p class="text-sm font-bold text-white">june 2023</p>
-      <p class="text-base font-medium text-slate">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue
-        mauris augue neque gravida in fermentum.
-      </p>
+      <div class="basis-full">
+        <div class="flex flex-col tracking-[.05em]">
+          <span class="text-[50pt] font-bold leading-[.3em] text-orange"
+            >*</span
+          >
+          <span class="text-[25pt]/9 font-bold text-mainText"
+            >ethan mooney</span
+          >
+          <span class="text-[18pt]/7 font-semibold italic text-orange"
+            >software engineer</span
+          >
+          <span class="font-regular text-[18pt]/7 text-blue">photographer</span>
+          <span class="text-[18pt]/7 font-semibold text-mainText"
+            >coffee fan</span
+          >
+        </div>
+        <div class="h-[3rem]"></div>
+        <div class="text-[18pt] leading-[1.25em]">
+          currently @<span class="text-blue">googlemaps</span>*, improving the
+          navigation experience one pixel at a time- all to get you where you
+          need to go
+          <span class="italic text-orange"
+            >faster, safer, and more reliably</span
+          >
+        </div>
+        <div class="text-[11pt] italic">*no, I did not rename the gulf</div>
+        <div class="h-[3rem]"></div>
+        <div class="text-[18pt] leading-[1.25em]">
+          find me on the internet
+          <span class="font-semibold"> @ethanimooney</span>
+        </div>
+        <div class="flex flex-row gap-4">
+          <div class="inline-block text-[16pt] font-bold">
+            <span class="align-sub text-[25pt] text-orange">*</span>
+            <span class="italic text-orange hover:text-[16pt] hover:text-blue"
+              ><a href="https://www.instagram.com/ethanimooney"
+                >instagram</a
+              ></span
+            >
+          </div>
+          <div class="inline-block text-[16pt] font-bold">
+            <span class="align-sub text-[25pt] text-blue">*</span>
+            <span class="italic text-blue hover:text-[16pt] hover:text-mainText"
+              ><a href="https://www.linkedin.com/in/ethanimooney"
+                >linkedin</a
+              ></span
+            >
+          </div>
+          <div class="inline-block text-[16pt] font-bold">
+            <span class="align-sub text-[25pt]">*</span>
+            <span class="italic hover:text-[16pt] hover:text-orange"
+              ><a href="https://www.github.com/ethanimooney">github</a></span
+            >
+          </div>
+        </div>
+        <div class="h-[3rem]"></div>
+        <div class="text-[18pt]">
+          take a look at my <span class="text-blue">photography</span>*
+        </div>
+        <div class="text-[11pt] italic">
+          *please appreciate each photo equally
+        </div>
+        <div class="text-[11pt] italic">
+          **if you got that reference, we're friends now
+        </div>
+        <div class="h-[3rem]"></div>
+      </div>
+      <div class="basis-full">
+        <img
+          class="h-60 w-full rounded-xl object-cover"
+          src="../assets/images/1.JPG" />
+        <div class="text-right text-[16pt] font-semibold italic text-blue">
+          see more
+        </div>
+      </div>
     </div>
   </div>
 </template>
