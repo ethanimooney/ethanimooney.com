@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <!-- Main Content -->
-  <div class="mx-auto my-6 max-w-sm md:my-auto md:max-w-lg">
+  <div class="mx-auto my-6 max-w-xs sm:max-w-sm md:max-w-lg">
     <div class="flex flex-col">
       <div class="p-15">
         <div class="basis-full text-right text-[30pt] font-bold tracking-wide">
@@ -9,7 +9,7 @@
         </div>
       </div>
 
-      <div class="h-[7rem]"></div>
+      <div class="h-[7rem] md:h-[5rem]"></div>
 
       <div class="basis-full">
         <div class="flex flex-col tracking-[.05em]">

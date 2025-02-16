@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Images from "../views/Images.vue";
-import Blog from "../views/Blog.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,11 +14,6 @@ const router = createRouter({
       path: "/images",
       component: Images,
       name: "images",
-    },
-    {
-      path: "/blog",
-      component: Blog,
-      name: "blog",
     },
   ],
 });
