@@ -56,7 +56,7 @@
   <div class="basis-full">
     <img
       class="h-60 w-full rounded-xl object-cover"
-      src="../assets/images/1.JPG" />
+      src="../assets/images/7.JPG" />
     <div
       class="text-right text-[16pt] font-semibold italic text-blue hover:text-mainText">
       <RouterLink to="/images">see more</RouterLink>
