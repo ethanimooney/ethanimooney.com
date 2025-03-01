@@ -2,7 +2,7 @@
   import { ref } from "vue";
   function getImgUrl(fileName) {
     let ext = ".jpg"; // can be anything
-    const imgUrl = "src/assets/images/" + fileName + ".jpg";
+    const imgUrl = "../assets/images/" + fileName + ".jpg";
     console.log(imgUrl);
     return imgUrl;
   }
@@ -22,7 +22,7 @@
 
   <div class="grow">
     <div class="col-span-1 col-start-2 mb-4" v-for="num of imgTotal">
-      <img src="../assets/images/7.JPG" class="rounded-[8px]" />
+      <img :src="getImgUrl(num)" class="rounded-[8px]" />
     </div>
   </div>
 </template>
