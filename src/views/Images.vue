@@ -1,10 +1,9 @@
 <script setup>
+  import { ref } from "vue";
   function getImgUrl(fileName) {
     let ext = ".jpg"; // can be anything
-    const imgUrl = new URL(
-      "../assets/images/" + fileName + ".JPG",
-      import.meta.url
-    ).href;
+    const imgUrl = "src/assets/images/" + fileName + ".jpg";
+    console.log(imgUrl);
     return imgUrl;
   }
 
