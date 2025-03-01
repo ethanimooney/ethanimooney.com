@@ -15,6 +15,10 @@ const router = createRouter({
       component: Images,
       name: "images",
     },
+    {
+      path: "/:pathMatch(.*)",
+      component: NotFoundComponent,
+    },
   ],
 });
 
