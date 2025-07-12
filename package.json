@@ -1,20 +1,30 @@
 {
-  "name": "ethanmooney.me",
+  "name": "ethanimooney.com",
+  "private": true,
   "version": "1.0.0",
-  "description": "Ethan Mooney personal website",
-  "main": "sass/mystyles.scss",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "gcc": "^1.0.2"
+    "@phosphor-icons/vue": "^2.1.4",
+    "@vercel/blob": "^0.27.2",
+    "pnpm": "^10.5.2",
+    "vercel": "^41.3.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
-    "bulma": "^0.7.5",
-    "node-sass": "^4.13.1"
-  },
-  "scripts": {
-  "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-  "css-watch": "npm run css-build -- --watch",
-  "start": "npm run css-watch"
-},
-  "author": "",
-  "license": "ISC"
+    "@vitejs/plugin-vue": "^4.6.2",
+    "autoprefixer": "^10.4.14",
+    "dotenv": "^16.4.7",
+    "dotenv-expand": "^12.0.1",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^5.4.8"
+  }
 }
