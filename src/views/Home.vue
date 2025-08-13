@@ -43,7 +43,7 @@
         >
       </div>
     </div>
-    <div class="h-[3rem]"></div>
+    <!-- <div class="h-[3rem]"></div>
     <div class="text-[18pt]">
       take a look at my <span class="text-blue">photography</span>*
     </div>
@@ -60,6 +60,6 @@
     <div
       class="text-right text-[16pt] font-semibold italic text-blue hover:text-mainText">
       <RouterLink to="/images">see more</RouterLink>
-    </div>
+    </div> -->
   </div>
 </template>
