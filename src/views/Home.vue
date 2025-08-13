@@ -43,7 +43,7 @@
         >
       </div>
     </div>
-    <!-- <div class="h-[3rem]"></div>
+    <div class="h-[3rem]"></div>
     <div class="text-[18pt]">
       take a look at my <span class="text-blue">photography</span>*
     </div>
@@ -56,10 +56,10 @@
   <div class="basis-full">
     <img
       class="h-60 w-full rounded-xl object-cover"
-      src="../assets/images/7.JPG" />
+      src="../assets/images/7.jpg" />
     <div
       class="text-right text-[16pt] font-semibold italic text-blue hover:text-mainText">
       <RouterLink to="/images">see more</RouterLink>
-    </div> -->
+    </div>
   </div>
 </template>

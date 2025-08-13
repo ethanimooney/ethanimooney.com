@@ -1,13 +1,11 @@
 <script setup>
-  import { ref } from "vue";
-  function getImgUrl(fileName) {
-    let ext = ".jpg"; // can be anything
-    const imgUrl = "../assets/images/" + fileName + ".jpg";
-    console.log(imgUrl);
-    return imgUrl;
+  const images = [];
+  for (let i = 1; i <= 8; i++) {
+    images.push({
+      src: new URL(`../assets/images/${i}.jpg`, import.meta.url).href,
+      alt: `Image ${i}`,
+    });
   }
-
-  const imgTotal = 8;
 </script>
 <template>
   <div class="text-[20pt]/8 tracking-[.03em]">
@@ -21,6 +19,16 @@
   <div class="h-[1rem]"></div>
 
   <div class="grow">
-    <div class="col-span-1 col-start-2 mb-4">Coming soon!</div>
+    <div class="flex flex-col gap-4">
+      <div
+        v-for="(image, index) in images"
+        :key="index"
+        class="flex items-center justify-center">
+        <img
+          :src="image.src"
+          :alt="image.alt"
+          class="h-auto max-w-full rounded shadow" />
+      </div>
+    </div>
   </div>
 </template>
